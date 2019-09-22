@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.mystyle</groupId>
 	<artifactId>shopping-log-management-service</artifactId>
-	<version>:0.0.1</version>
+	<version>0.0.1</version>
 	<name>shopping-log-management-service</name>
 	<description>cassandra using for log</description>
 

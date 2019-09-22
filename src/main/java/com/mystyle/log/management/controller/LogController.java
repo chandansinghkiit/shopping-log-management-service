@@ -25,6 +25,7 @@ public class LogController {
 
     @PostMapping("/summary")
     public ResponseEntity<?> getSummaryOfProduct(@RequestBody Long productId){
+    	System.out.println("get product summary for productId"+productId);
         return new ResponseEntity<>(logService.findSummaryByProductId(productId), HttpStatus.OK);
     }
 
